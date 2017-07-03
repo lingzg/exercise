@@ -91,7 +91,7 @@ public class XpdfToText {
 	}
 	
 	public static void main(String[] args) throws Exception {  
-        XpdfToText xpdfToText = new XpdfToText("E:\\交通部项目\\交通部标书.pdf");  
+        XpdfToText xpdfToText = new XpdfToText("E:\\中国电建\\绩溪抽水蓄能电站技术条款.pdf");  
        // xpdfToText.toTextTxtFile();  
         xpdfToText.toTextDocFile();
     } 

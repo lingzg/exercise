@@ -125,7 +125,7 @@ public class PdfIO {
 	}
 	
 	public static void main(String[] args) throws IOException {
-		String s = readPdf("E:\\交通部项目\\交通部标书.pdf");
+		String s = readPdf("E:\\中国电建\\绩溪抽水蓄能电站技术条款.pdf");
 		System.out.print(s);
 	}
 

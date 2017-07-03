@@ -9,7 +9,7 @@ import com.itextpdf.text.pdf.parser.TextExtractionStrategy;
 
 public class PDFReader {
 	public static void main(String[] args) throws IOException {
-		String s=getPdfFileText("E:\\交通部项目\\交通部标书.pdf");
+		String s=getPdfFileText("E:\\中国电建\\绩溪抽水蓄能电站技术条款.pdf");
 		System.out.print(s);
 	}
 
