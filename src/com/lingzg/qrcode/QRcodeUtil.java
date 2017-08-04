@@ -76,8 +76,8 @@ public class QRcodeUtil {
 
 	public static void main(String[] args) {
 		try {
-			createQRcode("http://172.16.1.15:8080/gongdi/app/login","F:/image.png");
-			readQRcode("F:/image.png");
+//			createQRcode("http://172.16.1.15:8080/gongdi/app/login","C:\\Users\\lingzg\\Pictures\\image.png");
+			readQRcode("C:\\Users\\lingzg\\Pictures\\image.jpg");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

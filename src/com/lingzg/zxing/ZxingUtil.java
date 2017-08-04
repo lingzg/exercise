@@ -73,8 +73,8 @@ public class ZxingUtil {
 
 	public static void main(String[] args) {
 		try {
-			createZxing("http://172.16.1.15:8080/gongdi/app/login","F:/image.png");
-			readZxing("F:/image.png");
+//			createZxing("http://172.16.1.15:8080/gongdi/app/login","C:\\Users\\lingzg\\Pictures\\image.png");
+			readZxing("C:\\Users\\lingzg\\Pictures\\image.jpg");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
