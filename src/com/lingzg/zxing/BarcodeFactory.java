@@ -172,6 +172,6 @@ public class BarcodeFactory {
   
     public static void main(String[] args) { 
         BarcodeFactory.encode("http://172.16.1.15:8080/gongdi/app/login",  
-                        300, 300, "C:\\Users\\lingzg\\Pictures\\fu.jpg", "C:\\Users\\lingzg\\Pictures\\image.jpg");  
+                        300, 300, "C:\\Users\\lingzg\\Pictures\\temp_11.gif", "C:\\Users\\lingzg\\Pictures\\image2.jpg");  
     }  
 }  
