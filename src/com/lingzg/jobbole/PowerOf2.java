@@ -10,18 +10,18 @@ package com.lingzg.jobbole;
 public class PowerOf2 {
 
 	public static void main(String[] args) {
-		long s = System.nanoTime();
-//		boolean f = isPowerOf2(1024*1024*1024+1);
-		long m = System.nanoTime();
-		boolean f2 = isPowerOfTwo(1024*1024*1024+1);
-//		int n = countOf1(2119724597);
-		long e = System.nanoTime();
-//		System.out.println(m-s);
-		System.out.println(e-m);
-//		System.out.println(n);
-//		System.out.println(f);
-		System.out.println(f2);
-
+//		long s = System.nanoTime();
+////		boolean f = isPowerOf2(1024*1024*1024+1);
+//		long m = System.nanoTime();
+//		boolean f2 = isPowerOfTwo(1024*1024*1024+1);
+////		int n = countOf1(2119724597);
+//		long e = System.nanoTime();
+////		System.out.println(m-s);
+//		System.out.println(e-m);
+////		System.out.println(n);
+////		System.out.println(f);
+//		System.out.println(f2);
+		System.out.println(countOf1(1001101));
 	}
 
 	
@@ -68,8 +68,10 @@ public class PowerOf2 {
 			throw new RuntimeException("invalid argument");
 		}
 		int count = 0;
+		System.out.println(Integer.toBinaryString(n));
 		while(n!=0){
 			n &= n-1;
+			System.out.println(Integer.toBinaryString(n));
 			count++;
 		}
 		return count;
